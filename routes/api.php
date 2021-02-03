@@ -27,6 +27,10 @@ Route::get('/cours/{courId}', function ($courId) {
     return \App\Models\Cour::find($courId);
 });
 
+Route::put('/cours/{courId}', function ($courId, Request $request) {
+    $cour = \App\Models\Cour::find($courId);
+    return $cour->update($request->all());
+});
 
 Route::post('/cours', function (Request $request) {
     return \App\Models\Cour::created($request->all());
@@ -38,7 +42,3 @@ Route::delete('/cours/{courId}', function ($courId) {
 });
 
 
-Route::put('/cours/{courId}', function ($courId, Request $request) {
-    $cour = \App\Models\Cour::find($courId);
-    return $cour->update($request->all());
-});
