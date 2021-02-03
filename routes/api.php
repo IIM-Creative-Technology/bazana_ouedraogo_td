@@ -17,3 +17,27 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/cours', function ($courId, Request $request) {
+    return \App\Models\Cour::all();
+});
+
+
+Route::get('/cours/{courId}', function ($courId) {
+    return 'Mon cours n°' . $courId;
+});
+
+
+Route::post('/cours', function ($courId, Request $request) {
+    return "J'ajoute le cours n°" . $courId;
+});
+
+
+Route::delete('/cours/{courId}', function ($courId) {
+    return 'Je supprime le cours n°' . $courId;
+});
+
+
+Route::put('/cours/{courId}', function ($courId, Request $request) {
+    return "Je modifie le cours n°" . $courId;
+});
