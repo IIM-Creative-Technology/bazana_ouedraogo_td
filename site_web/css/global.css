@@ -9,6 +9,10 @@ body{
     overflow: hidden;
 }
 
+p{
+    margin: 5px 0;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 20px;
@@ -31,18 +35,16 @@ body{
     background: white; 
   }
 
-/*CARTES*/
-section{
-    height: auto;
-}
-
 h1{
     font-family: 'Dosis', sans-serif;
-    font-size: 45px;
+    font-size: 40px;
+    font-weight: 800;
     text-align: center;
 }
+/*CARTES*/
 
 .row {
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -51,20 +53,27 @@ h1{
     height: 75vh;
 }
 
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 .card {
-    width: 25%;
-    border: 1px solid rgb(53, 52, 52);
+    width: 27%;
+    border: 1px solid rgb(184, 102, 102);
     margin-bottom: 50px;
     transition: 0.3s;
+    
+    padding: 0 7px;
 }
 
 
 .card-header {
+    margin-top: 7px;
     height: 150px;
     text-align: center;
-    background: linear-gradient(to right, #08f, #5800e6);
+    background: linear-gradient(to right, #f89292, #f85961);
     color: #fff;
     overflow: hidden;
 }
@@ -78,9 +87,8 @@ h1{
 
 
 .card-body {
-    padding: 20px 20px;
-    text-align: center;
-    font-size: 12px;
+    font-size: 14px;
+    padding: 10px 10px;
 }
 
 .card-body h3{
@@ -92,7 +100,7 @@ h1{
     display: block;
     color: #fff;
     text-align: center;
-    background: linear-gradient(to right, #08f, #5800e6);
+    background: linear-gradient(to right, #f89292, #f85961);
     margin-top: 30px;
     text-decoration: none;
     padding: 10px 5px;
