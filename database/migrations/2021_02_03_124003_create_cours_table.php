@@ -18,9 +18,9 @@ class CreateCoursTable extends Migration
             $table->string('nom');
             $table->longText('image_url');
             $table->longText('programme');
-            $table->dateTime('year');
-            $table->dateTime('date_debut');
-            $table->dateTime('date_fin');
+            $table->year('year');
+            $table->date('date_debut');
+            $table->date('date_fin');
             $table->timestamps();
         });
     }
