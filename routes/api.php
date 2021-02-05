@@ -19,7 +19,7 @@ use App\Http\Middleware\EnsureTokenIsValid;
 //     //
 // })->middleware(EnsureTokenIsValid::class);
 
-Route::middleware([EnsureTokenIsValid::class])->group(function () {
+
 
 //on récupère tous les éléments
 
@@ -32,6 +32,8 @@ Route::get('/cours', function(Request $request) {
 Route::get('/cours/{courId}', function ($courId) {
     return \App\Models\Cour::find($courId);
 });
+
+Route::middleware([EnsureTokenIsValid::class])->group(function () {
 
 //on remplace un ou plusieurs éléments par une nouvelle version
 
