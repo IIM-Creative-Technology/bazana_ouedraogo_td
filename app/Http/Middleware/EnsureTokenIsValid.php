@@ -27,10 +27,10 @@ class EnsureTokenIsValid
 
         // return $next($request);
 
-        if ($request->input('token') !== 'LEMOTDEPASSE') {
+        if ($request->header('IDWSecurisation') === 'LEMOTDEPASSE') {
             return $next($request);
         }else{
-            return response()->json(['status' => false,'error' => "error"], 403);
+            return response("erreur",403);
         }
 
         // $response = $next($request); //You get the Response instance and store it
