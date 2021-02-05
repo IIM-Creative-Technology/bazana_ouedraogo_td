@@ -74,13 +74,13 @@ btn1.addEventListener('click', () => {
                 </div>
                 <div class="card-body">
                 <h3>${cours.nom}</h3>
-                <p class="desc_container">${cours.description}</p>
-                <p class="prog_container">${cours.programme}</p>
-                <p class="year_container">Année: ${cours.year}</p>
+                <p>${cours.description}</p>
+                <p>${cours.programme}</p>
+                <p>Année: ${cours.year}</p>
                 <div class="flex">
-                <p class="begin">${cours.date_debut}</p>
-                <p> - </p>
-                <p class="end_date">${cours.date_fin}</p>
+                <p>${cours.date_debut}</p>
+                <p class="trait"> - </p>
+                <p>${cours.date_fin}</p>
                 </div>
                 </div>
                 </div>
