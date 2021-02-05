@@ -40,7 +40,7 @@ Route::put('/cours/{courId}', function ($courId, Request $request) {
 //on crée un élément dans la ressource
 
 Route::post('/cours', function (Request $request) {
-    return \App\Models\Cour::created($request->all());
+    return \App\Models\Cour::create($request->all());
 });
 
 //on supprime un ou plusieurs éléments
