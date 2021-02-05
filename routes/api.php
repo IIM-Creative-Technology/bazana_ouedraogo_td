@@ -18,6 +18,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+
 //on récupère tous les éléments
 
 Route::get('/cours', function(Request $request) {
