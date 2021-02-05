@@ -2,15 +2,16 @@
 /*GOOGLE FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 body{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Nunito', sans-serif;
     background-color: #fdb5b5;
     overflow: hidden;
 }
 
 p{
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 /* width */
@@ -40,6 +41,7 @@ h1{
     font-size: 40px;
     font-weight: 800;
     text-align: center;
+    margin: 5px 0;
 }
 /*CARTES*/
 
@@ -55,12 +57,11 @@ h1{
 
 .flex{
     display: flex;
-    justify-content: space-between;
 }
 
 
 .card {
-    width: 27%;
+    width: 20%;
     border: 1px solid rgb(184, 102, 102);
     margin-bottom: 50px;
     transition: 0.3s;
@@ -71,7 +72,7 @@ h1{
 
 .card-header {
     margin-top: 7px;
-    height: 150px;
+    height: 200px;
     text-align: center;
     background: linear-gradient(to right, #f89292, #f85961);
     color: #fff;
@@ -88,7 +89,7 @@ h1{
 
 .card-body {
     font-size: 14px;
-    padding: 10px 10px;
+    padding: 10px 20px;
 }
 
 .card-body h3{
@@ -96,14 +97,15 @@ h1{
     font-weight: 600;
 }
 
-.card-body .btn {
+.btn {
+    margin: 0 auto;
+    margin-bottom: 25px;
     display: block;
     color: #fff;
     text-align: center;
     background: linear-gradient(to right, #f89292, #f85961);
-    margin-top: 30px;
     text-decoration: none;
-    padding: 10px 5px;
+    padding: 10px 25px;
 }
 
 .card:hover {
@@ -112,8 +114,11 @@ h1{
 }
 
 footer{
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
+}
+footer p{
+    margin: 0;
 }
 
 
