@@ -109,7 +109,8 @@ h1{
     text-align: center;
     background: linear-gradient(to right, #f89292, #f85961);
     text-decoration: none;
-    padding: 10px 25px;
+    border-radius: 10px;
+    padding: 15px 30px;
 }
 
 .card:hover {
