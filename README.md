@@ -11,6 +11,9 @@ _____________________________
 
 
 ## Configurer la bdd
+<p align="center"><a href="https://github.com/IIM-Creative-Technology/bazana_ouedraogo_td/blob/main/bdd.JPG?raw=true" width="400"></a></p>
+
+
 
 - Lancer votre serveur laragon, xaampp;etc..
 - Lancer Laravel en faisant php artisan serve
