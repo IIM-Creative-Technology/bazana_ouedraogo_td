@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le : jeu. 04 fév. 2021 à 22:08
+-- Généré le : ven. 05 fév. 2021 à 00:39
 -- Version du serveur :  5.7.24
 -- Version de PHP : 7.4.9
 
@@ -50,11 +50,12 @@ INSERT INTO `cours` (`id`, `nom`, `image_url`, `programme`, `year`, `date_debut`
 (3, 'Wireframes et UX pour le web', 'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80', 'UX - UI - ADOBE XD - USER JOURNEY', 2020, '2020-10-05', '2020-10-09', NULL, NULL, 'Introduction au UX et UI avec Adobe XD'),
 (4, 'Intégration d\'une maquette web', 'https://images.unsplash.com/photo-1559028012-481c04fa702d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=935&q=80', 'HTML - CSS - PHOTOSHOP - ZEPLIN', 2020, '2020-10-19', '2020-10-23', NULL, NULL, 'Intégration de différents maquette en HTM-CSS-RESPONSIVE notamment des maquettes Photoshop'),
 (5, 'PHP Orienté objet', 'https://images.unsplash.com/photo-1504164996022-09080787b6b3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80', 'POO', 2020, '2020-11-02', '2020-11-06', NULL, NULL, 'Introduction aux notions du POO'),
-(6, 'Mise en ligne FTP/Déploiement', 'https://images.unsplash.com/photo-1539278670307-a69d04dc8a75?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80', ' Connaître les verbes HTTP - Comprendre la notion de DNS...', 2020, '2020-11-30', '2020-12-04', NULL, NULL, 'L’objectif de ce cours est de découvrir la manière classique de mettre en ligne un site ou une application\r\nvia FTP, mais aussi de découvrir de nouveaux outils nouvelle génération commeVercel ou Netlify ainsi que\r\nHeroku\r\n'),
+(6, 'Mise en ligne FTP/Déploiement', 'https://images.unsplash.com/photo-1539278670307-a69d04dc8a75?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80', ' Connaître les verbes HTTP - Comprendre la notion de DNS...', 2020, '2020-11-30', '2020-12-04', NULL, NULL, 'L’objectif de ce cours est de découvrir la manière classique de mettre en ligne un site ou une application\r\nvia FTP, mais aussi de découvrir de nouveaux outils nouvelle génération.\r\n'),
 (7, ' La gestion de projet tech/web', 'https://images.unsplash.com/photo-1598520106896-fb5263f3bc33?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80', 'Cahier de Charges - Gestion de Projet Web', 2020, '2020-12-07', '2020-12-11', NULL, NULL, 'Introduction aux bases de gestion de projet Web'),
-(8, 'Découvertes des APIs', 'https://images.unsplash.com/photo-1599507593548-0187ac4043c6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80', 'API - LARAVEL', 2021, '2021-02-01', '2021-02-05', NULL, NULL, 'Ce cours aura pour objectif de vous expliquer ce qu’est une API, à quoi ça sert, les cas d’usages et\r\nainsi savoir comment les utiliser.\r\nNous verrons aussi comment réaliser une API simple en utilisant le framework php Laravel.\r\n'),
-(9, 'UX Mobile', 'https://images.unsplash.com/photo-1578401058525-35aaec0b4658?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80', '-Revoir les différences entre UX et UI + Warm-up UX\r\n-Les méthodologies de travail UX (Vision CDP sur le sketch 4 étapes et le design thinking)\r\n-Les enjeux mobiles - Positions des mains et des yeux et les conséquences UX\r\n- Comprendre la guideline material pour les applis android\r\n- Comprendre la guideline IOS', 2021, '2021-03-22', '2021-03-26', NULL, NULL, 'L\'objectif de ce cours est de comprendre les enjeux UX Mobile :\r\n- Smartphone et positions des mains\r\n- Smartphone et positions des yeux\r\n- Comprendre les guidelines IOS et Android'),
-(10, 'Recettage d\'un projet', 'https://images.unsplash.com/photo-1553285991-4c74211f5097?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80', 'lorem ipsum', 2021, '2021-04-12', '2021-04-16', NULL, NULL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mauris felis, bibendum sit amet malesuada eu');
+(8, 'Découvertes des APIs', 'https://images.unsplash.com/photo-1599507593548-0187ac4043c6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80', 'API - Laravel', 2021, '2021-02-01', '2021-02-05', NULL, NULL, 'Ce cours aura pour objectif de vous expliquer ce qu’est une API, à quoi ça sert, les cas d’usages et\r\nainsi savoir comment les utiliser.\r\nNous verrons aussi comment réaliser une API simple en utilisant le framework php Laravel.\r\n'),
+(9, 'UX Mobile', 'https://images.unsplash.com/photo-1578401058525-35aaec0b4658?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80', 'UX - UI - Warm-up', 2021, '2021-03-22', '2021-03-26', NULL, NULL, 'L\'objectif de ce cours est de comprendre les enjeux UX Mobile :\r\n- Smartphone et positions des mains\r\n- Smartphone et positions des yeux\r\n'),
+(10, 'Recettage d\'un projet', 'https://images.unsplash.com/photo-1553285991-4c74211f5097?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80', 'lorem ipsum', 2021, '2021-04-12', '2021-04-16', NULL, NULL, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mauris felis, bibendum sit amet malesuada eu'),
+(11, 'Vue.JS ', 'https://miro.medium.com/max/3920/1*oZqGznbYXJfBlvGp5gQlYQ.jpeg', 'JS - Vue.JS - Html - CSS - PHP', 2021, '2021-03-01', '2021-03-05', NULL, NULL, '- Rappels de base du langage Java Script.\r\n- Java script natif : notions d\'objets sans classes.\r\n- Découvrir les librairie Front-end: JQuery, Riot...');
 
 -- --------------------------------------------------------
 
@@ -168,7 +169,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT pour la table `cours`
 --
 ALTER TABLE `cours`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT pour la table `failed_jobs`
