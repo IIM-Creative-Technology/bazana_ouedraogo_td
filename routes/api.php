@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Middleware\EnsureTokenIsValid;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 //     //
 // })->middleware(EnsureTokenIsValid::class);
 
-Route::middleware([IDWSecurisation::class])->group(function () {
+Route::middleware([EnsureTokenIsValid::class])->group(function () {
 
 //on récupère tous les éléments
 
