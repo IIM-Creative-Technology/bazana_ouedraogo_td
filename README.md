@@ -9,7 +9,7 @@
 
 ## Configurer la bdd
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="img/bdd.jpg" width="400"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://drive.google.com/file/d/1Fcq8VqhqznTe4Q8Ctuqhz4B6ca8aHxn-/view?usp=sharing" width="400"></a></p>
 
 ## Acceder à l'exercice 2
 
