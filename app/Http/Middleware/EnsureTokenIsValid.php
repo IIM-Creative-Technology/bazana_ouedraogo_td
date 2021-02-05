@@ -16,13 +16,18 @@ class EnsureTokenIsValid
      */
     public function handle($request, Closure $next)
     {
+        // if ($request->input('token') !== 'my-secret-token') {
+        //     return redirect('home');
+        // }
+
+        // return $next($request);
         // if ($request->input('token') !== 'LEMOTDEPASSE') {
         //     return $next($request);
         // }
 
         // return $next($request);
 
-       if ($request->input('token') !== 'LEMOTDEPASSE') {
+        if ($request->input('token') !== 'LEMOTDEPASSE') {
             return $next($request);
         }else{
             return response()->json(['status' => false,'error' => "error"], 403);

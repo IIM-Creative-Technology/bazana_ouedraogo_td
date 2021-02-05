@@ -14,7 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware([EnsureTokenIsValid::class])->group(function () {
+// Route::get('/profile', function () {
+//     //
+// })->middleware(EnsureTokenIsValid::class);
+
+Route::middleware([IDWSecurisation::class])->group(function () {
 
 //on récupère tous les éléments
 
