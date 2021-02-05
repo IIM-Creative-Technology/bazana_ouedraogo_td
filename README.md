@@ -11,6 +11,7 @@
 - Lancer votre serveur laragon, xaampp;etc..
 - Lancer Laravel en faisant php artisan serve
 - Creer une base de donnée [pulv_api] en utf8 general ci
+<img src="/img/bdd.jpg" alt="My cool logo"/>
 - Dupliquer le fichier .env.example
 - renommer le fichié copié en [.env]
 - Mettre vos informations de connexion dans le fichier .env 
