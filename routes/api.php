@@ -14,10 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
-
+Route::middleware([EnsureTokenIsValid::class])->group(function () {
 
 //on récupère tous les éléments
 
@@ -50,4 +47,4 @@ Route::delete('/cours/{courId}', function ($courId) {
     return \App\Models\Cour::find($courId)->delete();
 });
 
-
+});
