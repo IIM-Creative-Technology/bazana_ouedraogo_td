@@ -30,7 +30,7 @@ class EnsureTokenIsValid
         if ($request->header('IDWSecurisation') === 'LEMOTDEPASSE') {
             return $next($request);
         }else{
-            return response("erreur",403);
+            return response("‘error’",403);
         }
 
         // $response = $next($request); //You get the Response instance and store it
